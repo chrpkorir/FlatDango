@@ -1,36 +1,4 @@
-
-/*document.addEventListener("DOMContentLoaded", function() {
-    const filmList = document.getElementById("films");
-    const placeHolder = filmList.querySelector("li");
-    if (placeHolder){
-        filmList.removeChild(placeHolder)
-    
-    } 
-})?*/
-
-// Make request to fetch movie data
-/*fetch("db.json")
-.then(res => res.json)
-.then( movieData =>
-    movieData.movies.forEach(movie => {
-        const movieItem = document.createItem("li")
-        movie.classList.add("film", "item")
-
-        movieItem.textContent = movie.title;
-
-        // Setinner HTML of the li with movie title
-        movieItem.textContent = movie.title;
-
-        // Append li to the ul#films
-        filmsList.appendChild(movieItem);
-    })
-)
-.catch(error => {
-    console.error('Error fetching movies:', error);
-  });*/
-
-  // Initialize the page with movie data
-  function renderMovie() {
+function renderMovie() {
     // Set the movie details on the page
     document.addEventListener("DOMContentLoaded", function(){
         fetch("db.json")
