@@ -4,7 +4,7 @@ function renderMovie() {
         fetch("db.json")
         .then(res => res.json)
         .then(data => {
-            const movie = data.movies[0]
+            const movie = data.films[0]
 
             document.getElementById('movie-title').textContent = movie.title;
             document.getElementById('movie-runtime').textContent = `Runtime: ${movie.runtime} minutes`;
@@ -19,7 +19,7 @@ function renderMovie() {
             // Disable the "Buy Ticket" button if no tickets vailable
             if (availableTickets <= 0) {
                 buyTicketButton.disabled = true;
-                buyTicketButton.textContent = "Sold Out"; // Optionally change the button text
+                buyTicketButton.textContent = "Sold Out"; 
             } 
             else {
                 buyTicketButton.disabled = false;
@@ -64,3 +64,4 @@ function renderMovie() {
                     });
 })
   }
+
