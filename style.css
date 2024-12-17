@@ -1,0 +1,38 @@
+.film.item {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .film.item:hover {
+    background-color: #f0f0f0;
+  }
+  .film.item {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .film.item:hover {
+    background-color: #f0f0f0;
+  }
+  .movie-details {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+  .buy-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .buy-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
