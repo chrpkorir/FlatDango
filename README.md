@@ -1,6 +1,6 @@
 # FLATDANGO Application
-
-This is a simple movie ticket purchase web app. User can view movie details, see available tickets, and purchase a ticket if there are tickets available. The app is built with HTML, CSS, and JavaScript.
+-[live link](https://chrpkorir.github.io/FlatDango/)
+-This is a simple movie ticket purchase web app. User can view movie details, see available tickets, and purchase a ticket if there are tickets available. The app is built with HTML, CSS, and JavaScript.
 
 ## Features
 - Display a list of movies with details including title, runtime, showtime, and available tickets.
