@@ -1,3 +1,34 @@
+body {
+  display: flex;
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+}
+#films {
+  width: 200px;
+  margin-right: 20px;
+}
+#main-content {
+  flex-grow: 1;
+}
+#movie-details{
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+  padding: 40px;
+}
+#container{
+  display: grid;
+  grid-template-columns: 30% 70%; /* adjust column widths as needed */
+  grid-gap: 20px; /* add gap between elements */
+}
+#side{
+  background-color: turquoise;
+  border: 1px solid black;
+  padding: 20px;
+  width: 250px; /* adjust width as needed */
+  vertical-align: top;
+  box-shadow: inset 0 0 10px black;
+}
 .film.item {
     padding: 10px;
     background-color: #f4f4f4;
@@ -9,20 +40,11 @@
   .film.item:hover {
     background-color: #f0f0f0;
   }
-  .film.item {
-    padding: 10px;
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    margin-bottom: 5px;
-    cursor: pointer;
-  }
-  .film.item:hover {
-    background-color: #f0f0f0;
-  }
   .movie-details {
     margin: 20px;
     padding: 10px;
     background-color: #f4f4f4;
+    text-align: center;
   }
   .buy-button {
     margin-top: 10px;
@@ -36,3 +58,14 @@
     background-color: #ccc;
     cursor: not-allowed;
   }
+  /*
+  
+   
+    
+    .film.item {
+      cursor: pointer;
+      margin: 10px 0;
+    }
+    .film.item:hover {
+      background-color: #f0f0f0;
+    }

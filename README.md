@@ -17,10 +17,14 @@ This is a simple movie ticket purchase web app. User can view movie details, see
 
 Follow these steps to set up the project on your local machine:
 
-### 1. Clone the repository
+ 1. Clone the repository
 
 To get started, clone the project repository to your local machine:
 
 ```bash
 git clone https://github.com/chrpkorir/FlatDango.git
 cd FlatDango
+
+## Licence
+
+MIT License
