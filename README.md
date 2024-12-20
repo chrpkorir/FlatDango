@@ -21,7 +21,7 @@ Follow these steps to set up the project on your local machine:
 
 To get started, clone the project repository to your local machine:
 
-```bash
+bash
 git clone https://github.com/chrpkorir/FlatDango.git
 cd FlatDango
 
